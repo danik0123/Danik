@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, suma = 0;
+    cin >> a >> b;
+
+    if (a > b) swap(a, b); // щоб працювало незалежно від порядку
+
+    for (int i = a; i <= b; i++) {
+        if (i % 2 == 0) suma += i;
+    }
+
+    cout << suma;
+    return 0;
+}
