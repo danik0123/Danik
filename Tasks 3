@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+    const char* str = "Hello, world!";
+
+    size_t length = strlen(str);
+
+    cout << "String length: " << length << endl;
+
+    return 0;
+}
